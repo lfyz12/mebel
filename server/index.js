@@ -11,7 +11,7 @@ const cookieParser = require('cookie-parser')
 const PORT = process.env.PORT || 3000
 const errorMiddleware = require('./middleware/errorMiddleware');
 const corsOptions ={
-    origin:'http://localhost:3000',
+    origin:'https://mebel-danils-projects-a63bd881.vercel.app/',
     credentials:true,
     optionSuccessStatus:200
 }
